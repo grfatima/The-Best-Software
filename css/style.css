@@ -9,11 +9,13 @@
   font-family: poppins-regular;
   src: url(../fonts/Poppins/Poppins-Regular.ttf);
 }
+body {
+  font-family: poppins-regular;
+}
 header {
   width: 1280px;
-  height: 2300px;
+  height: 2200px;
   background-size: cover;
-  font-family: poppins-regular;
   background: url(../images/Blur\ Gradient.png) no-repeat;
 }
 .navbar {
@@ -155,4 +157,125 @@ form .subscribe {
 }
 .main-description .paraqraf {
   margin: 24px 0;
+}
+.body-section {
+  width: 1280px;
+  height: 550px;
+  display: flex;
+  padding: 60px;
+  background-size: cover;
+  background: url(../images/BlurGradient.png) no-repeat center;
+}
+.body-title {
+  margin: auto;
+}
+.body-title h2 {
+  font-size: 40px;
+  line-height: 45px;
+}
+.body-title p {
+  margin: 40px 0;
+  font-size: 12px;
+}
+.body-title a {
+  color: white;
+  transition: 0.5s;
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: black;
+}
+.body-title a:hover {
+  color: black;
+  background-color: white;
+}
+.logos img {
+  height: 30px;
+  width: 1020px;
+  display: block;
+  margin: 40px auto;
+}
+.body-description {
+  width: 550px;
+}
+.body-description h4 {
+  color: #373fff;
+}
+.body-description h2 {
+  margin: 20px 0;
+  font-size: 30px;
+  line-height: 40px;
+}
+.body-description p {
+  font-size: 11px;
+}
+.body {
+  gap: 17%;
+  margin: auto;
+  height: 310px;
+  display: flex;
+  width: 1100px;
+  margin-top: 10%;
+  justify-content: space-evenly;
+}
+.body-logos {
+  display: flex;
+}
+.body-logos img {
+  padding-right: 20px;
+}
+.body-logos p {
+  font-size: 11px;
+  padding: 10px 0;
+}
+.body-description {
+  width: 492px;
+  height: 270px;
+}
+#b {
+  margin: 20px 0;
+}
+.footer-main {
+  margin: auto;
+  width: 1110px;
+  height: 400px;
+}
+.footer-main h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.footer-section {
+  display: flex;
+  width: 1110px;
+  height: 300px;
+  margin-top: 40px;
+  border-radius: 24px;
+  background-color: #d798e126;
+}
+.footer-text {
+  width: 310px;
+  height: 224px;
+  margin: auto;
+}
+.footer-text p {
+  font-size: 14px;
+}
+.footer-text h3 {
+  margin: 15px 0;
+  font-size: 30px;
+  line-height: 40px;
+}
+#a {
+  border-right: 1px solid #cdc7d2;
+}
+#b img {
+  width: 50px;
+  height: 50px;
+}
+#b {
+  border-right: 1px solid #cdc7d2;
+}
+#c img {
+  width: 50px;
+  height: 50px;
 }
