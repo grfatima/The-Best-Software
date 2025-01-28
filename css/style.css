@@ -11,7 +11,7 @@
 }
 header {
   width: 1280px;
-  height: 2000px;
+  height: 2300px;
   background-size: cover;
   font-family: poppins-regular;
   background: url(../images/Blur\ Gradient.png) no-repeat;
@@ -67,7 +67,7 @@ form {
 form .email {
   width: 300px;
   height: 70px;
-  font-size: 16px;
+  font-size: 15px;
   padding-left: 20px;
   border-radius: 20px;
 }
@@ -83,5 +83,46 @@ form .subscribe {
   width: 1000px;
   height: 600px;
   display: block;
-  margin: 60px auto;
+  margin: 60px auto 100px auto;
+}
+.head-main {
+  width: 1100px;
+  height: 500px;
+  margin: auto;
+}
+.head-main h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  background: -webkit-linear-gradient(53.94deg, #373fff 15.02%, #3acaf8 82.83%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.head-main h2 {
+  margin: auto;
+  width: 600px;
+  height: 100px;
+  font-size: 40px;
+  color: #1d2130;
+  line-height: 50px;
+  text-align: center;
+}
+.head-description {
+  width: 1100px;
+  height: 310px;
+  display: flex;
+  margin-top: 50px;
+  border-radius: 24px;
+  padding: 60px 0 0 30px;
+  background-color: #e0e4fc6e;
+  justify-content: space-evenly;
+}
+.head-description h3 {
+  width: 260px;
+  color: #1d2130;
+}
+.head-description p {
+  width: 350px;
+  font-size: 13px;
+  color: #1d2130;
+  padding-top: 10px;
 }
