@@ -10,6 +10,7 @@
   src: url(../fonts/Poppins/Poppins-Regular.ttf);
 }
 body {
+  color: #1d2130;
   font-family: poppins-regular;
 }
 header {
@@ -30,6 +31,7 @@ header {
 }
 .nav h3 {
   font-size: 30px;
+  color: black;
 }
 nav a {
   color: black;
@@ -40,9 +42,9 @@ nav a {
   width: 120px;
   padding: 10px;
   color: white;
-  transition: 0.5s;
   border: 1px solid;
   border-radius: 12px;
+  transition-duration: 0.5s;
   background-color: black;
 }
 .nav-button:hover {
@@ -179,11 +181,11 @@ form .subscribe {
 }
 .body-title a {
   color: white;
-  transition: 0.5s;
   border: 1px solid;
   padding: 10px 20px;
   border-radius: 12px;
   background-color: black;
+  transition: all 0.5s ease;
 }
 .body-title a:hover {
   color: black;
@@ -232,13 +234,14 @@ form .subscribe {
   width: 492px;
   height: 270px;
 }
-#b {
+#d {
   margin: 20px 0;
 }
 .footer-main {
   margin: auto;
   width: 1110px;
   height: 400px;
+  margin-bottom: 10%;
 }
 .footer-main h2 {
   font-size: 40px;
@@ -263,6 +266,7 @@ form .subscribe {
 .footer-text h3 {
   margin: 15px 0;
   font-size: 30px;
+  color: #1d2130;
   line-height: 40px;
 }
 #a {
@@ -278,4 +282,134 @@ form .subscribe {
 #c img {
   width: 50px;
   height: 50px;
+}
+.footer-title h2 {
+  margin: auto;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+}
+.footer-content {
+  margin: auto;
+  width: 1110px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.content:hover {
+  transform: scale(1.1);
+}
+.content {
+  width: 350px;
+  height: 340px;
+  margin-top: 2%;
+  text-align: center;
+  border-radius: 24px;
+  transition: all 0.5s ease;
+  border: 2px solid #6199ed42;
+}
+.content h6 {
+  margin: 3px 0;
+  font-size: 15px;
+}
+#f {
+  font-size: 12px;
+  color: #1d2130a5;
+}
+#e {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 60px 30px 15px 30px;
+}
+.content-end {
+  margin: auto;
+  width: 800px;
+  height: 200px;
+  margin-top: 10%;
+  text-align: center;
+}
+.content-end h2 {
+  font-size: 50px;
+  line-height: 50px;
+}
+.content-end p {
+  padding: 20px 0;
+  font-size: 12px;
+}
+.content-end a {
+  color: white;
+  font-size: 12px;
+  margin-top: 10px;
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 12px;
+  display: inline-block;
+  transition-duration: 0.5s;
+  background-color: black;
+}
+.content-end a:hover {
+  color: black;
+  background-color: white;
+}
+.footer {
+  width: 1280px;
+  height: 450px;
+  margin-top: 8%;
+  background-color: #1d2130;
+}
+.footer-right h3 {
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+.footer-end {
+  gap: 7%;
+  height: 190px;
+  width: 1500px;
+  display: flex;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+.footer-end h6,
+h3 {
+  color: white;
+  font-size: 15px;
+}
+.footer-end a {
+  opacity: 60%;
+  padding: 3px 0;
+  display: block;
+  color: white;
+}
+.footer-input {
+  display: flex;
+  margin-top: 10px;
+}
+.footer-input .email {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 8px;
+}
+.footer-input .subscribe {
+  width: 150px;
+  height: 50px;
+  color: white;
+  border-radius: 12px;
+  background-color: black;
+}
+.footer-contact {
+  display: block;
+  padding-top: 15%;
+  margin: auto;
+  text-align: center;
+  width: 1020px;
+  border-bottom: 1px solid #888888;
+}
+.footer-contact a {
+  opacity: 50%;
+  color: white;
+  padding: 0 10px;
+}
+a img {
+  padding: 0 10px;
 }
